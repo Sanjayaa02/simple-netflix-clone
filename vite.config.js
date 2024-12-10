@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react';
 import { ghPages } from 'vite-plugin-gh-pages';
 
 export default defineConfig({
-  base: '/<repository-name>/', // Replace <repository-name> with your repo name
+  base: '/netflix-clone/',
   plugins: [react(), ghPages()],
 });
